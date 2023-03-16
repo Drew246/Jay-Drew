@@ -1,86 +1,43 @@
-/* Set default font family and color */
-body {
-  font-family: Arial, sans-serif;
-  color: #333;
-}
 
-/* Style the main header */
-header {
-  background-color: #0074D9;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-}
-
-/* Style the navbar */
-nav {
-  background-color: #eee;
-  padding: 10px;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 200px;
-  overflow-y: auto;
-}
-
-/* Style the nav links */
-.nav-link {
-  display: block;
-  padding: 5px 10px;
-  color: #333;
-  text-decoration: none;
-}
-
-.nav-link:hover {
-  background-color: #f0f0f0;
-}
-
-/* Style the main content area */
-#main-doc {
-  margin-left: 220px;
-  padding: 20px;
-}
-
-.main-section {
-  margin-bottom: 40px;
-}
-
-/* Style the section headers */
-.main-section h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-/* Style the paragraphs */
-.main-section p {
-  margin-bottom: 10px;
-  line-height: 1.5;
-}
-
-/* Style the code blocks */
-.main-section code {
-  background-color: #f0f0f0;
-  padding: 2px 5px;
-}
-
-/* Style the list items */
-.main-section li {
-  margin-bottom: 5px;
-}
-
-/* Apply media query to show/hide navbar on small screens */
-@media (max-width: 768px) {
-  nav {
-    width: 100%;
-    height: auto;
-    position: relative;
-    margin-bottom: 20px;
-    overflow-y: hidden;
-  }
-
-  #main-doc {
-    margin-left: 0;
-  }
-}
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Technical Documentation</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+      <a class="nav-link" href="#HTML_and_CSS">HTML and CSS</a>
+      <a class="nav-link" href="#Responsive_Design">Responsive Design</a>
+      <a class="nav-link" href="#Conclusion">Conclusion</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can involve:
+<ul> 
+  <li>Developing a simple single static page of plain text</li>
+  <li>Complex web applications</li>
+  <li>Electronic businesses</li>
+  <li>Social network services</li>
+  <li>Gaming networks and much more</li>
+    </p>
+     
+       <section class="main-section" id="JavaScript_and_Java">
+         <header>Javascript and Java</header>
+        <p>JavaScript and Java are completely different languages, both in concept and design. JavaScript was invented by Brendan Eich in 1995, and became an ECMA standard in 1997.</p>
+          <p>Java, on the other hand, was invented by James Gosling, Mike Sheridan, and Patrick Naughton in 1991, and was released by Sun Microsystems in 1995 as a core component of Sun Microsystems' Java platform.</p>
+         <section class="main-section" id= "HTML_and_CSS">
+            <header>HTML and CSS</header><br>
+<p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.</p>
+         <section class="main-section" id="Responsive_Design">
+            <header> Responsive Design</header><br>
+            <p>Responsive web design or responsive design is an approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes from minimum to maximum display size to ensure usability and satisfaction.</p>
+<p></p><p></p><p></p><p></p>
+         <section class ="main-section" id="Conclusion">
+            <header> Conclusion</header>
+            <p></P
